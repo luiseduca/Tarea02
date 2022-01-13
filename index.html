@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Formulario validación</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <form>
+        <section class="section-flex">
+
+            <article class="element-form">
+                <div class="label">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba el nombre">
+                </div>
+            </article>            
+
+            <article class="element-form">
+                <div class="label">
+                    <label for="">Genero</label>
+                    <select name="genero" id="genero">
+                        <option value="-">Seleccione una Opcion</option>
+                        <option value="1">Hombre</option>
+                        <option value="2">Mujer</option>
+                    </select>
+                </div>
+            </article>
+
+            <article class="element-form">
+                <div class="label">
+                    <label for="">Edad</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba la edad">
+                </div>
+            </article>            
+
+            <article class="btn-article">
+                <button type="submit" onclick="validar()">Enviar</button>                       
+            </article>                 
+
+        </section>
+
+    </form>
+    <script src="/js/javascript.js"></script>
+</body>
+</html>
